@@ -1,0 +1,15 @@
+{
+    "model_name": "llava-hf/llava-1.5-7b-hf",
+    "batch_size": 4,
+    "epochs": 5,
+    "learning_rate": 2e-5,
+    "warmup_steps": 100,
+    "gradient_accumulation_steps": 1,
+    "max_length": 512,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "fp16": true,
+    "bf16": false,
+    "gradient_checkpointing": false
+}
